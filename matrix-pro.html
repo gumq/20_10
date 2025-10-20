@@ -535,7 +535,7 @@
                 this.canvas = document.querySelector(canvasSelector);
                 this.context = this.canvas.getContext('2d');
                 this.options = {
-                    gap: 4,
+                    gap: 3,
                     fontSize: 500,
                     fontFamily: 'Avenir, Helvetica Neue, Helvetica, Arial, sans-serif',
                     dotColor: { r: 220, g: 38, b: 127, a: 1 }, // Màu hồng đậm
@@ -563,7 +563,7 @@
             }
 
             adjustCanvas() {
-                this.canvas.width = window.innerWidth - 100;
+                this.canvas.width = window.innerWidth - 50;
                 this.canvas.height = window.innerHeight - 30;
             }
 
